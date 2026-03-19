@@ -71,12 +71,19 @@
 				<TextBlock Grid.Row="19">20. Шаймарданов Адель Ахатович</TextBlock>
 
 				<!-- Места для добавления элементов управления (кнопок) -->
-				<Button Grid.Row="13" 
-                        Grid.Column="1" 
-                        Content="Информация" 
-                        Width="100"
-                        Margin="5"
-                        Click="Button1_Click"/>
+				<Button Grid.Row="8" 
+        Grid.Column="1" 
+        Content="Информация" 
+        Width="100"
+        Margin="5"
+        Click="Maslennikov_Click"/>
+
+<Button Grid.Row="13" 
+        Grid.Column="1" 
+        Content="Информация" 
+        Width="100"
+        Margin="5"
+        Click="Button1_Click"/>
 
 			</Grid>
 		</Grid>
