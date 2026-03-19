@@ -12,5 +12,9 @@ namespace Group4335
             Info infow = new Info();
             infow.Show();
         }
-    }
+    } private void Maslennikov_Click(object sender, RoutedEventArgs e)
+        {
+            _4335_Maslennikov authorWindow = new _4335_Maslennikov();
+            authorWindow.ShowDialog();
+        }
 }
